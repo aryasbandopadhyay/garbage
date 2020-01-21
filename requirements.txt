@@ -1,0 +1,4 @@
+django
+azure.cognitiveservices.vision.computervision
+PIL
+array
