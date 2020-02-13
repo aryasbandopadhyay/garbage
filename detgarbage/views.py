@@ -13,8 +13,8 @@ import time
 def index(request,id,image,imgloc):
     
     
-    subscription_key = 'ffe34b77508440fcb2882aec460f27b4'
-    endpoint = 'https://centralindia.api.cognitive.microsoft.com/'
+    subscription_key = ''
+    endpoint = ''
 
     computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
     remote_image_url = "http://akshatkhanna.co/upload/"+image
